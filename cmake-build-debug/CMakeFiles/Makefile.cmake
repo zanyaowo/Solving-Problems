@@ -55,4 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/d066.dir/DependInfo.cmake"
   "CMakeFiles/virtual.dir/DependInfo.cmake"
   "CMakeFiles/leetcode2.dir/DependInfo.cmake"
+  "CMakeFiles/lt49.dir/DependInfo.cmake"
+  "CMakeFiles/a015.dir/DependInfo.cmake"
   )

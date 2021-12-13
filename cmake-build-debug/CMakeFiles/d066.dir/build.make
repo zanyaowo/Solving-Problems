@@ -65,47 +65,32 @@ include CMakeFiles/d066.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/d066.dir/flags.make
 
-CMakeFiles/d066.dir/d066.cpp.obj: CMakeFiles/d066.dir/flags.make
-CMakeFiles/d066.dir/d066.cpp.obj: ../d066.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/d066.dir/d066.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\d066.dir\d066.cpp.obj -c C:\Users\tea91\IdeaProjects\ZERO_JUDGE\d066.cpp
+CMakeFiles/d066.dir/zero-judge/d066.cpp.obj: CMakeFiles/d066.dir/flags.make
+CMakeFiles/d066.dir/zero-judge/d066.cpp.obj: ../zero-judge/d066.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/d066.dir/zero-judge/d066.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\d066.dir\zero-judge\d066.cpp.obj -c C:\Users\tea91\IdeaProjects\ZERO_JUDGE\zero-judge\d066.cpp
 
-CMakeFiles/d066.dir/d066.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/d066.dir/d066.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tea91\IdeaProjects\ZERO_JUDGE\d066.cpp > CMakeFiles\d066.dir\d066.cpp.i
+CMakeFiles/d066.dir/zero-judge/d066.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/d066.dir/zero-judge/d066.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tea91\IdeaProjects\ZERO_JUDGE\zero-judge\d066.cpp > CMakeFiles\d066.dir\zero-judge\d066.cpp.i
 
-CMakeFiles/d066.dir/d066.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/d066.dir/d066.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tea91\IdeaProjects\ZERO_JUDGE\d066.cpp -o CMakeFiles\d066.dir\d066.cpp.s
-
-CMakeFiles/d066.dir/leetcode-49.cpp.obj: CMakeFiles/d066.dir/flags.make
-CMakeFiles/d066.dir/leetcode-49.cpp.obj: ../leetcode-49.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/d066.dir/leetcode-49.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\d066.dir\leetcode-49.cpp.obj -c C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode-49.cpp
-
-CMakeFiles/d066.dir/leetcode-49.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/d066.dir/leetcode-49.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode-49.cpp > CMakeFiles\d066.dir\leetcode-49.cpp.i
-
-CMakeFiles/d066.dir/leetcode-49.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/d066.dir/leetcode-49.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode-49.cpp -o CMakeFiles\d066.dir\leetcode-49.cpp.s
+CMakeFiles/d066.dir/zero-judge/d066.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/d066.dir/zero-judge/d066.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tea91\IdeaProjects\ZERO_JUDGE\zero-judge\d066.cpp -o CMakeFiles\d066.dir\zero-judge\d066.cpp.s
 
 # Object files for target d066
 d066_OBJECTS = \
-"CMakeFiles/d066.dir/d066.cpp.obj" \
-"CMakeFiles/d066.dir/leetcode-49.cpp.obj"
+"CMakeFiles/d066.dir/zero-judge/d066.cpp.obj"
 
 # External object files for target d066
 d066_EXTERNAL_OBJECTS =
 
-d066.exe: CMakeFiles/d066.dir/d066.cpp.obj
-d066.exe: CMakeFiles/d066.dir/leetcode-49.cpp.obj
+d066.exe: CMakeFiles/d066.dir/zero-judge/d066.cpp.obj
 d066.exe: CMakeFiles/d066.dir/build.make
 d066.exe: CMakeFiles/d066.dir/linklibs.rsp
 d066.exe: CMakeFiles/d066.dir/objects1.rsp
 d066.exe: CMakeFiles/d066.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable d066.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable d066.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\d066.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -167,77 +167,79 @@ leetcode2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/build
 .PHONY : leetcode2/fast
 
-d066.obj: d066.cpp.obj
-.PHONY : d066.obj
+#=============================================================================
+# Target rules for targets named lt49
+
+# Build rule for target.
+lt49: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lt49
+.PHONY : lt49
+
+# fast build rule for target.
+lt49/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/build
+.PHONY : lt49/fast
+
+#=============================================================================
+# Target rules for targets named a015
+
+# Build rule for target.
+a015: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 a015
+.PHONY : a015
+
+# fast build rule for target.
+a015/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/build
+.PHONY : a015/fast
+
+leetcode/leetcode-49.obj: leetcode/leetcode-49.cpp.obj
+.PHONY : leetcode/leetcode-49.obj
 
 # target to build an object file
-d066.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/d066.cpp.obj
-.PHONY : d066.cpp.obj
+leetcode/leetcode-49.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/leetcode/leetcode-49.cpp.obj
+.PHONY : leetcode/leetcode-49.cpp.obj
 
-d066.i: d066.cpp.i
-.PHONY : d066.i
+leetcode/leetcode-49.i: leetcode/leetcode-49.cpp.i
+.PHONY : leetcode/leetcode-49.i
 
 # target to preprocess a source file
-d066.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/d066.cpp.i
-.PHONY : d066.cpp.i
+leetcode/leetcode-49.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/leetcode/leetcode-49.cpp.i
+.PHONY : leetcode/leetcode-49.cpp.i
 
-d066.s: d066.cpp.s
-.PHONY : d066.s
+leetcode/leetcode-49.s: leetcode/leetcode-49.cpp.s
+.PHONY : leetcode/leetcode-49.s
 
 # target to generate assembly for a file
-d066.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/d066.cpp.s
-.PHONY : d066.cpp.s
+leetcode/leetcode-49.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/leetcode/leetcode-49.cpp.s
+.PHONY : leetcode/leetcode-49.cpp.s
 
-leetcode-49.obj: leetcode-49.cpp.obj
-.PHONY : leetcode-49.obj
+leetcode/leetcode2.obj: leetcode/leetcode2.cpp.obj
+.PHONY : leetcode/leetcode2.obj
 
 # target to build an object file
-leetcode-49.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/leetcode-49.cpp.obj
-.PHONY : leetcode-49.cpp.obj
+leetcode/leetcode2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj
+.PHONY : leetcode/leetcode2.cpp.obj
 
-leetcode-49.i: leetcode-49.cpp.i
-.PHONY : leetcode-49.i
-
-# target to preprocess a source file
-leetcode-49.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/leetcode-49.cpp.i
-.PHONY : leetcode-49.cpp.i
-
-leetcode-49.s: leetcode-49.cpp.s
-.PHONY : leetcode-49.s
-
-# target to generate assembly for a file
-leetcode-49.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/leetcode-49.cpp.s
-.PHONY : leetcode-49.cpp.s
-
-leetcode2.obj: leetcode2.cpp.obj
-.PHONY : leetcode2.obj
-
-# target to build an object file
-leetcode2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode2.cpp.obj
-.PHONY : leetcode2.cpp.obj
-
-leetcode2.i: leetcode2.cpp.i
-.PHONY : leetcode2.i
+leetcode/leetcode2.i: leetcode/leetcode2.cpp.i
+.PHONY : leetcode/leetcode2.i
 
 # target to preprocess a source file
-leetcode2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode2.cpp.i
-.PHONY : leetcode2.cpp.i
+leetcode/leetcode2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.i
+.PHONY : leetcode/leetcode2.cpp.i
 
-leetcode2.s: leetcode2.cpp.s
-.PHONY : leetcode2.s
+leetcode/leetcode2.s: leetcode/leetcode2.cpp.s
+.PHONY : leetcode/leetcode2.s
 
 # target to generate assembly for a file
-leetcode2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode2.cpp.s
-.PHONY : leetcode2.cpp.s
+leetcode/leetcode2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.s
+.PHONY : leetcode/leetcode2.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -287,6 +289,54 @@ vitrual.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\virtual.dir\build.make CMakeFiles/virtual.dir/vitrual.cpp.s
 .PHONY : vitrual.cpp.s
 
+zero-judge/a015.obj: zero-judge/a015.cpp.obj
+.PHONY : zero-judge/a015.obj
+
+# target to build an object file
+zero-judge/a015.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/zero-judge/a015.cpp.obj
+.PHONY : zero-judge/a015.cpp.obj
+
+zero-judge/a015.i: zero-judge/a015.cpp.i
+.PHONY : zero-judge/a015.i
+
+# target to preprocess a source file
+zero-judge/a015.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/zero-judge/a015.cpp.i
+.PHONY : zero-judge/a015.cpp.i
+
+zero-judge/a015.s: zero-judge/a015.cpp.s
+.PHONY : zero-judge/a015.s
+
+# target to generate assembly for a file
+zero-judge/a015.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/zero-judge/a015.cpp.s
+.PHONY : zero-judge/a015.cpp.s
+
+zero-judge/d066.obj: zero-judge/d066.cpp.obj
+.PHONY : zero-judge/d066.obj
+
+# target to build an object file
+zero-judge/d066.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/zero-judge/d066.cpp.obj
+.PHONY : zero-judge/d066.cpp.obj
+
+zero-judge/d066.i: zero-judge/d066.cpp.i
+.PHONY : zero-judge/d066.i
+
+# target to preprocess a source file
+zero-judge/d066.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/zero-judge/d066.cpp.i
+.PHONY : zero-judge/d066.cpp.i
+
+zero-judge/d066.s: zero-judge/d066.cpp.s
+.PHONY : zero-judge/d066.s
+
+# target to generate assembly for a file
+zero-judge/d066.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/zero-judge/d066.cpp.s
+.PHONY : zero-judge/d066.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -296,24 +346,29 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ZERO_JUDGE
+	@echo ... a015
 	@echo ... d066
 	@echo ... leetcode2
+	@echo ... lt49
 	@echo ... virtual
-	@echo ... d066.obj
-	@echo ... d066.i
-	@echo ... d066.s
-	@echo ... leetcode-49.obj
-	@echo ... leetcode-49.i
-	@echo ... leetcode-49.s
-	@echo ... leetcode2.obj
-	@echo ... leetcode2.i
-	@echo ... leetcode2.s
+	@echo ... leetcode/leetcode-49.obj
+	@echo ... leetcode/leetcode-49.i
+	@echo ... leetcode/leetcode-49.s
+	@echo ... leetcode/leetcode2.obj
+	@echo ... leetcode/leetcode2.i
+	@echo ... leetcode/leetcode2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... vitrual.obj
 	@echo ... vitrual.i
 	@echo ... vitrual.s
+	@echo ... zero-judge/a015.obj
+	@echo ... zero-judge/a015.i
+	@echo ... zero-judge/a015.s
+	@echo ... zero-judge/d066.obj
+	@echo ... zero-judge/d066.i
+	@echo ... zero-judge/d066.s
 .PHONY : help
 
 

@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/tea91/IdeaProjects/ZERO_JUDGE/d066.cpp" "C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/d066.dir/d066.cpp.obj"
-  "C:/Users/tea91/IdeaProjects/ZERO_JUDGE/leetcode-49.cpp" "C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/d066.dir/leetcode-49.cpp.obj"
+  "C:/Users/tea91/IdeaProjects/ZERO_JUDGE/zero-judge/d066.cpp" "C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/d066.dir/zero-judge/d066.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

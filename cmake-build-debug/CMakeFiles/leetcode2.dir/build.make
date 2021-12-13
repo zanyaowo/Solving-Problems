@@ -65,27 +65,27 @@ include CMakeFiles/leetcode2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode2.dir/flags.make
 
-CMakeFiles/leetcode2.dir/leetcode2.cpp.obj: CMakeFiles/leetcode2.dir/flags.make
-CMakeFiles/leetcode2.dir/leetcode2.cpp.obj: ../leetcode2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode2.dir/leetcode2.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode2.dir\leetcode2.cpp.obj -c C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode2.cpp
+CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj: CMakeFiles/leetcode2.dir/flags.make
+CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj: ../leetcode/leetcode2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode2.dir\leetcode\leetcode2.cpp.obj -c C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode\leetcode2.cpp
 
-CMakeFiles/leetcode2.dir/leetcode2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode2.dir/leetcode2.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode2.cpp > CMakeFiles\leetcode2.dir\leetcode2.cpp.i
+CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode\leetcode2.cpp > CMakeFiles\leetcode2.dir\leetcode\leetcode2.cpp.i
 
-CMakeFiles/leetcode2.dir/leetcode2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode2.dir/leetcode2.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode2.cpp -o CMakeFiles\leetcode2.dir\leetcode2.cpp.s
+CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tea91\IdeaProjects\ZERO_JUDGE\leetcode\leetcode2.cpp -o CMakeFiles\leetcode2.dir\leetcode\leetcode2.cpp.s
 
 # Object files for target leetcode2
 leetcode2_OBJECTS = \
-"CMakeFiles/leetcode2.dir/leetcode2.cpp.obj"
+"CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj"
 
 # External object files for target leetcode2
 leetcode2_EXTERNAL_OBJECTS =
 
-leetcode2.exe: CMakeFiles/leetcode2.dir/leetcode2.cpp.obj
+leetcode2.exe: CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj
 leetcode2.exe: CMakeFiles/leetcode2.dir/build.make
 leetcode2.exe: CMakeFiles/leetcode2.dir/linklibs.rsp
 leetcode2.exe: CMakeFiles/leetcode2.dir/objects1.rsp

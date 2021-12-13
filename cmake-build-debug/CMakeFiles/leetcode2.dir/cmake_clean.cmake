@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode2.dir/leetcode2.cpp.obj"
+  "CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.obj"
   "leetcode2.exe"
   "leetcode2.exe.manifest"
   "leetcode2.pdb"

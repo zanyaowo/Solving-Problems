@@ -66,6 +66,8 @@ all: CMakeFiles/ZERO_JUDGE.dir/all
 all: CMakeFiles/d066.dir/all
 all: CMakeFiles/virtual.dir/all
 all: CMakeFiles/leetcode2.dir/all
+all: CMakeFiles/lt49.dir/all
+all: CMakeFiles/a015.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,6 +79,8 @@ clean: CMakeFiles/ZERO_JUDGE.dir/clean
 clean: CMakeFiles/d066.dir/clean
 clean: CMakeFiles/virtual.dir/clean
 clean: CMakeFiles/leetcode2.dir/clean
+clean: CMakeFiles/lt49.dir/clean
+clean: CMakeFiles/a015.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -112,12 +116,12 @@ CMakeFiles/ZERO_JUDGE.dir/clean:
 CMakeFiles/d066.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target d066"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target d066"
 .PHONY : CMakeFiles/d066.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/d066.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/d066.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/d066.dir/rule
@@ -138,7 +142,7 @@ CMakeFiles/d066.dir/clean:
 CMakeFiles/virtual.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\virtual.dir\build.make CMakeFiles/virtual.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\virtual.dir\build.make CMakeFiles/virtual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target virtual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target virtual"
 .PHONY : CMakeFiles/virtual.dir/all
 
 # Build rule for subdir invocation for target.
@@ -164,7 +168,7 @@ CMakeFiles/virtual.dir/clean:
 CMakeFiles/leetcode2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target leetcode2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target leetcode2"
 .PHONY : CMakeFiles/leetcode2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,6 +186,58 @@ leetcode2: CMakeFiles/leetcode2.dir/rule
 CMakeFiles/leetcode2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/clean
 .PHONY : CMakeFiles/leetcode2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lt49.dir
+
+# All Build rule for target.
+CMakeFiles/lt49.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target lt49"
+.PHONY : CMakeFiles/lt49.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lt49.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lt49.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lt49.dir/rule
+
+# Convenience name for target.
+lt49: CMakeFiles/lt49.dir/rule
+.PHONY : lt49
+
+# clean rule for target.
+CMakeFiles/lt49.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/clean
+.PHONY : CMakeFiles/lt49.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/a015.dir
+
+# All Build rule for target.
+CMakeFiles/a015.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target a015"
+.PHONY : CMakeFiles/a015.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/a015.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/a015.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tea91\IdeaProjects\ZERO_JUDGE\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/a015.dir/rule
+
+# Convenience name for target.
+a015: CMakeFiles/a015.dir/rule
+.PHONY : a015
+
+# clean rule for target.
+CMakeFiles/a015.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a015.dir\build.make CMakeFiles/a015.dir/clean
+.PHONY : CMakeFiles/a015.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
