@@ -1,4 +1,4 @@
-C:\Users\tea91\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\tea91\IdeaProjects\ZERO_JUDGE
+C:\Users\tea91\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\tea91\IdeaProjects\leetcode-or-zero_judge -B C:\Users\tea91\IdeaProjects\leetcode-or-zero_judge\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug
+-- Build files have been written to: C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug

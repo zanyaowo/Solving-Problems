@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ZERO_JUDGE">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/ZERO_JUDGE.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/ZERO_JUDGE.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZERO_JUDGE"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZERO_JUDGE"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ZERO_JUDGE/fast">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/ZERO_JUDGE.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/ZERO_JUDGE.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZERO_JUDGE/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZERO_JUDGE/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="d066">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/d066.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/d066.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,15 +77,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 d066"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 d066"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="d066/fast">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/d066.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/d066.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -99,15 +99,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 d066/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 d066/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="virtual">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/virtual.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/virtual.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -121,15 +121,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 virtual"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 virtual"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="virtual/fast">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/virtual.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/virtual.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -143,25 +143,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 virtual/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 virtual/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode2">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/leetcode2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/leetcode2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -175,15 +165,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode2"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode2"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode2/fast">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/leetcode2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/leetcode2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -197,15 +187,59 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode2/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode2/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a17">
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/a17.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 a17"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a17/fast">
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/a17.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 a17/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lt49">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/lt49.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/lt49.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -219,15 +253,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 lt49"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 lt49"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lt49/fast">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/lt49.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/lt49.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -241,15 +275,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 lt49/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 lt49/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="a015">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/a015.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+			<Target title="apcs-1">
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/apcs-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -263,15 +297,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 a015"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 apcs-1"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="a015/fast">
-				<Option output="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/a015.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+			<Target title="apcs-1/fast">
+				<Option output="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/apcs-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -285,42 +319,55 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 a015/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 apcs-1/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug"/>
+				<Option working_dir="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/leetcode/leetcode-49.cpp">
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/apcs/2020-1-1.cpp">
+			<Option target="apcs-1"/>
+		</Unit>
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/leetcode/leetcode-49.cpp">
 			<Option target="lt49"/>
 		</Unit>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/leetcode/leetcode2.cpp">
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/leetcode/leetcode2.cpp">
 			<Option target="leetcode2"/>
 		</Unit>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/main.cpp">
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/main.cpp">
 			<Option target="ZERO_JUDGE"/>
 		</Unit>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/vitrual.cpp">
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/vitrual.cpp">
 			<Option target="virtual"/>
 		</Unit>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/zero-judge/a015.cpp">
-			<Option target="a015"/>
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/zero-judge/a17.cpp">
+			<Option target="a17"/>
 		</Unit>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/zero-judge/d066.cpp">
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/zero-judge/d066.cpp">
 			<Option target="d066"/>
 		</Unit>
-		<Unit filename="C:/Users/tea91/IdeaProjects/ZERO_JUDGE/CMakeLists.txt">
+		<Unit filename="C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,10 +1,11 @@
 #include <iostream>
 #include <algorithm>
+#define N 100010
 
 using namespace std;
 
 struct ListNode {
-    int val;
+    int val = 0;
     ListNode *next;
     ListNode() : val(0), next(nullptr) {}
     ListNode(int x) : val(x), next(nullptr) {}
@@ -12,14 +13,12 @@ struct ListNode {
 };
 
 
-void ListPrint(ListNode *i){
 
+ListNode* ListPrint(ListNode *l1, ListNode *l2){
+
+    return final1 -> next;
 }
 
 int main(){
-    ListNode *ls1, *ls2 , *ls3;
-    ListNode *p = ls1, *i = ls2, *q = ls3;
-    cout << p;
-    ListPrint(ls1);
     return 0;
 }

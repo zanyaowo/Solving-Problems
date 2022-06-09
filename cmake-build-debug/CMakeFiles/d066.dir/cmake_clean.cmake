@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/d066.dir/zero-judge/d066.cpp.obj"
+  "CMakeFiles/d066.dir/zero-judge/d066.cpp.obj.d"
   "d066.exe"
   "d066.exe.manifest"
   "d066.pdb"

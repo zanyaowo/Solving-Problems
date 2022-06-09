@@ -1,8 +1,9 @@
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/ZERO_JUDGE.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/d066.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/virtual.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/leetcode2.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/lt49.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/a015.dir
-C:/Users/tea91/IdeaProjects/ZERO_JUDGE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/ZERO_JUDGE.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/d066.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/virtual.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/leetcode2.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/a17.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/lt49.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/apcs-1.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/rebuild_cache.dir

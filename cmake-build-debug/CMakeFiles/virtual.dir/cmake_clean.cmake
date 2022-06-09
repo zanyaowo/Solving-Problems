@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/virtual.dir/vitrual.cpp.obj"
+  "CMakeFiles/virtual.dir/vitrual.cpp.obj.d"
   "libvirtual.dll.a"
   "virtual.exe"
   "virtual.exe.manifest"
