@@ -206,6 +206,32 @@ apcs-1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-1.dir\build.make CMakeFiles/apcs-1.dir/build
 .PHONY : apcs-1/fast
 
+#=============================================================================
+# Target rules for targets named apcs-2
+
+# Build rule for target.
+apcs-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 apcs-2
+.PHONY : apcs-2
+
+# fast build rule for target.
+apcs-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-2.dir\build.make CMakeFiles/apcs-2.dir/build
+.PHONY : apcs-2/fast
+
+#=============================================================================
+# Target rules for targets named e924
+
+# Build rule for target.
+e924: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 e924
+.PHONY : e924
+
+# fast build rule for target.
+e924/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\e924.dir\build.make CMakeFiles/e924.dir/build
+.PHONY : e924/fast
+
 apcs/2020-1-1.obj: apcs/2020-1-1.cpp.obj
 .PHONY : apcs/2020-1-1.obj
 
@@ -229,6 +255,30 @@ apcs/2020-1-1.s: apcs/2020-1-1.cpp.s
 apcs/2020-1-1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-1.dir\build.make CMakeFiles/apcs-1.dir/apcs/2020-1-1.cpp.s
 .PHONY : apcs/2020-1-1.cpp.s
+
+apcs/2020-1-2.obj: apcs/2020-1-2.cpp.obj
+.PHONY : apcs/2020-1-2.obj
+
+# target to build an object file
+apcs/2020-1-2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-2.dir\build.make CMakeFiles/apcs-2.dir/apcs/2020-1-2.cpp.obj
+.PHONY : apcs/2020-1-2.cpp.obj
+
+apcs/2020-1-2.i: apcs/2020-1-2.cpp.i
+.PHONY : apcs/2020-1-2.i
+
+# target to preprocess a source file
+apcs/2020-1-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-2.dir\build.make CMakeFiles/apcs-2.dir/apcs/2020-1-2.cpp.i
+.PHONY : apcs/2020-1-2.cpp.i
+
+apcs/2020-1-2.s: apcs/2020-1-2.cpp.s
+.PHONY : apcs/2020-1-2.s
+
+# target to generate assembly for a file
+apcs/2020-1-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-2.dir\build.make CMakeFiles/apcs-2.dir/apcs/2020-1-2.cpp.s
+.PHONY : apcs/2020-1-2.cpp.s
 
 leetcode/leetcode-49.obj: leetcode/leetcode-49.cpp.obj
 .PHONY : leetcode/leetcode-49.obj
@@ -374,6 +424,30 @@ zero-judge/d066.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\d066.dir\build.make CMakeFiles/d066.dir/zero-judge/d066.cpp.s
 .PHONY : zero-judge/d066.cpp.s
 
+zero-judge/e924.obj: zero-judge/e924.cpp.obj
+.PHONY : zero-judge/e924.obj
+
+# target to build an object file
+zero-judge/e924.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\e924.dir\build.make CMakeFiles/e924.dir/zero-judge/e924.cpp.obj
+.PHONY : zero-judge/e924.cpp.obj
+
+zero-judge/e924.i: zero-judge/e924.cpp.i
+.PHONY : zero-judge/e924.i
+
+# target to preprocess a source file
+zero-judge/e924.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\e924.dir\build.make CMakeFiles/e924.dir/zero-judge/e924.cpp.i
+.PHONY : zero-judge/e924.cpp.i
+
+zero-judge/e924.s: zero-judge/e924.cpp.s
+.PHONY : zero-judge/e924.s
+
+# target to generate assembly for a file
+zero-judge/e924.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\e924.dir\build.make CMakeFiles/e924.dir/zero-judge/e924.cpp.s
+.PHONY : zero-judge/e924.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -385,13 +459,18 @@ help:
 	@echo ... ZERO_JUDGE
 	@echo ... a17
 	@echo ... apcs-1
+	@echo ... apcs-2
 	@echo ... d066
+	@echo ... e924
 	@echo ... leetcode2
 	@echo ... lt49
 	@echo ... virtual
 	@echo ... apcs/2020-1-1.obj
 	@echo ... apcs/2020-1-1.i
 	@echo ... apcs/2020-1-1.s
+	@echo ... apcs/2020-1-2.obj
+	@echo ... apcs/2020-1-2.i
+	@echo ... apcs/2020-1-2.s
 	@echo ... leetcode/leetcode-49.obj
 	@echo ... leetcode/leetcode-49.i
 	@echo ... leetcode/leetcode-49.s
@@ -410,6 +489,9 @@ help:
 	@echo ... zero-judge/d066.obj
 	@echo ... zero-judge/d066.i
 	@echo ... zero-judge/d066.s
+	@echo ... zero-judge/e924.obj
+	@echo ... zero-judge/e924.i
+	@echo ... zero-judge/e924.s
 .PHONY : help
 
 

@@ -5,5 +5,7 @@ C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/a17.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/lt49.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/apcs-1.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/apcs-2.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/e924.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
