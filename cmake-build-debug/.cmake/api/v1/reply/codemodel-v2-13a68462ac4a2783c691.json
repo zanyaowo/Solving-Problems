@@ -23,7 +23,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -46,7 +49,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -82,6 +88,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "d028::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-d028-Debug-6b8cd8257e45b37221ba.json",
+					"name" : "d028",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "d066::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-d066-Debug-1f32439aca26a08dc77d.json",
 					"name" : "d066",
@@ -92,6 +105,20 @@
 					"id" : "e924::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-e924-Debug-c2caae62c140334d2503.json",
 					"name" : "e924",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "homework5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-homework5-Debug-dd02fba0c0c25edc9cf2.json",
+					"name" : "homework5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw6-Debug-01df0d4ea18bd107ac62.json",
+					"name" : "hw6",
 					"projectIndex" : 0
 				},
 				{

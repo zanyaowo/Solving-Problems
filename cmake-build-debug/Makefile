@@ -232,6 +232,45 @@ e924/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\e924.dir\build.make CMakeFiles/e924.dir/build
 .PHONY : e924/fast
 
+#=============================================================================
+# Target rules for targets named d028
+
+# Build rule for target.
+d028: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 d028
+.PHONY : d028
+
+# fast build rule for target.
+d028/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d028.dir\build.make CMakeFiles/d028.dir/build
+.PHONY : d028/fast
+
+#=============================================================================
+# Target rules for targets named homework5
+
+# Build rule for target.
+homework5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework5
+.PHONY : homework5
+
+# fast build rule for target.
+homework5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework5.dir\build.make CMakeFiles/homework5.dir/build
+.PHONY : homework5/fast
+
+#=============================================================================
+# Target rules for targets named hw6
+
+# Build rule for target.
+hw6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw6
+.PHONY : hw6
+
+# fast build rule for target.
+hw6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw6.dir\build.make CMakeFiles/hw6.dir/build
+.PHONY : hw6/fast
+
 apcs/2020-1-1.obj: apcs/2020-1-1.cpp.obj
 .PHONY : apcs/2020-1-1.obj
 
@@ -279,6 +318,78 @@ apcs/2020-1-2.s: apcs/2020-1-2.cpp.s
 apcs/2020-1-2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\apcs-2.dir\build.make CMakeFiles/apcs-2.dir/apcs/2020-1-2.cpp.s
 .PHONY : apcs/2020-1-2.cpp.s
+
+homework/homework5.obj: homework/homework5.cpp.obj
+.PHONY : homework/homework5.obj
+
+# target to build an object file
+homework/homework5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework5.dir\build.make CMakeFiles/homework5.dir/homework/homework5.cpp.obj
+.PHONY : homework/homework5.cpp.obj
+
+homework/homework5.i: homework/homework5.cpp.i
+.PHONY : homework/homework5.i
+
+# target to preprocess a source file
+homework/homework5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework5.dir\build.make CMakeFiles/homework5.dir/homework/homework5.cpp.i
+.PHONY : homework/homework5.cpp.i
+
+homework/homework5.s: homework/homework5.cpp.s
+.PHONY : homework/homework5.s
+
+# target to generate assembly for a file
+homework/homework5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework5.dir\build.make CMakeFiles/homework5.dir/homework/homework5.cpp.s
+.PHONY : homework/homework5.cpp.s
+
+homework/homework_6.obj: homework/homework_6.cpp.obj
+.PHONY : homework/homework_6.obj
+
+# target to build an object file
+homework/homework_6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw6.dir\build.make CMakeFiles/hw6.dir/homework/homework_6.cpp.obj
+.PHONY : homework/homework_6.cpp.obj
+
+homework/homework_6.i: homework/homework_6.cpp.i
+.PHONY : homework/homework_6.i
+
+# target to preprocess a source file
+homework/homework_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw6.dir\build.make CMakeFiles/hw6.dir/homework/homework_6.cpp.i
+.PHONY : homework/homework_6.cpp.i
+
+homework/homework_6.s: homework/homework_6.cpp.s
+.PHONY : homework/homework_6.s
+
+# target to generate assembly for a file
+homework/homework_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw6.dir\build.make CMakeFiles/hw6.dir/homework/homework_6.cpp.s
+.PHONY : homework/homework_6.cpp.s
+
+homework/owo1.obj: homework/owo1.cpp.obj
+.PHONY : homework/owo1.obj
+
+# target to build an object file
+homework/owo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d028.dir\build.make CMakeFiles/d028.dir/homework/owo1.cpp.obj
+.PHONY : homework/owo1.cpp.obj
+
+homework/owo1.i: homework/owo1.cpp.i
+.PHONY : homework/owo1.i
+
+# target to preprocess a source file
+homework/owo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d028.dir\build.make CMakeFiles/d028.dir/homework/owo1.cpp.i
+.PHONY : homework/owo1.cpp.i
+
+homework/owo1.s: homework/owo1.cpp.s
+.PHONY : homework/owo1.s
+
+# target to generate assembly for a file
+homework/owo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\d028.dir\build.make CMakeFiles/d028.dir/homework/owo1.cpp.s
+.PHONY : homework/owo1.cpp.s
 
 leetcode/leetcode-49.obj: leetcode/leetcode-49.cpp.obj
 .PHONY : leetcode/leetcode-49.obj
@@ -460,8 +571,11 @@ help:
 	@echo ... a17
 	@echo ... apcs-1
 	@echo ... apcs-2
+	@echo ... d028
 	@echo ... d066
 	@echo ... e924
+	@echo ... homework5
+	@echo ... hw6
 	@echo ... leetcode2
 	@echo ... lt49
 	@echo ... virtual
@@ -471,6 +585,15 @@ help:
 	@echo ... apcs/2020-1-2.obj
 	@echo ... apcs/2020-1-2.i
 	@echo ... apcs/2020-1-2.s
+	@echo ... homework/homework5.obj
+	@echo ... homework/homework5.i
+	@echo ... homework/homework5.s
+	@echo ... homework/homework_6.obj
+	@echo ... homework/homework_6.i
+	@echo ... homework/homework_6.s
+	@echo ... homework/owo1.obj
+	@echo ... homework/owo1.i
+	@echo ... homework/owo1.s
 	@echo ... leetcode/leetcode-49.obj
 	@echo ... leetcode/leetcode-49.i
 	@echo ... leetcode/leetcode-49.s

@@ -7,11 +7,10 @@ int main(){
     string str = "";
     map<char,int> table;
     int t = 0;
-    scanf("%d", &t);
     for(int i = 0; i < s.size(); i++){
         table[s[i]] = i;
     }
-    while(t--){
+    while(true){
         cin >> str;
         stack<int> stk;
         for(int i =0; i<str.size(); i++){
