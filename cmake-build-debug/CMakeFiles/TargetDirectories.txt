@@ -10,5 +10,11 @@ C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/d028.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/homework5.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw6.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw7.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw8.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw9.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw10.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw11.dir
+C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw12.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/rebuild_cache.dir

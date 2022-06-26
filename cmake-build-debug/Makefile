@@ -271,6 +271,84 @@ hw6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw6.dir\build.make CMakeFiles/hw6.dir/build
 .PHONY : hw6/fast
 
+#=============================================================================
+# Target rules for targets named hw7
+
+# Build rule for target.
+hw7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw7
+.PHONY : hw7
+
+# fast build rule for target.
+hw7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw7.dir\build.make CMakeFiles/hw7.dir/build
+.PHONY : hw7/fast
+
+#=============================================================================
+# Target rules for targets named hw8
+
+# Build rule for target.
+hw8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw8
+.PHONY : hw8
+
+# fast build rule for target.
+hw8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw8.dir\build.make CMakeFiles/hw8.dir/build
+.PHONY : hw8/fast
+
+#=============================================================================
+# Target rules for targets named hw9
+
+# Build rule for target.
+hw9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw9
+.PHONY : hw9
+
+# fast build rule for target.
+hw9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw9.dir\build.make CMakeFiles/hw9.dir/build
+.PHONY : hw9/fast
+
+#=============================================================================
+# Target rules for targets named hw10
+
+# Build rule for target.
+hw10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw10
+.PHONY : hw10
+
+# fast build rule for target.
+hw10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw10.dir\build.make CMakeFiles/hw10.dir/build
+.PHONY : hw10/fast
+
+#=============================================================================
+# Target rules for targets named hw11
+
+# Build rule for target.
+hw11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw11
+.PHONY : hw11
+
+# fast build rule for target.
+hw11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw11.dir\build.make CMakeFiles/hw11.dir/build
+.PHONY : hw11/fast
+
+#=============================================================================
+# Target rules for targets named hw12
+
+# Build rule for target.
+hw12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hw12
+.PHONY : hw12
+
+# fast build rule for target.
+hw12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw12.dir\build.make CMakeFiles/hw12.dir/build
+.PHONY : hw12/fast
+
 apcs/2020-1-1.obj: apcs/2020-1-1.cpp.obj
 .PHONY : apcs/2020-1-1.obj
 
@@ -366,6 +444,150 @@ homework/homework_6.s: homework/homework_6.cpp.s
 homework/homework_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw6.dir\build.make CMakeFiles/hw6.dir/homework/homework_6.cpp.s
 .PHONY : homework/homework_6.cpp.s
+
+homework/hw10.obj: homework/hw10.cpp.obj
+.PHONY : homework/hw10.obj
+
+# target to build an object file
+homework/hw10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw10.dir\build.make CMakeFiles/hw10.dir/homework/hw10.cpp.obj
+.PHONY : homework/hw10.cpp.obj
+
+homework/hw10.i: homework/hw10.cpp.i
+.PHONY : homework/hw10.i
+
+# target to preprocess a source file
+homework/hw10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw10.dir\build.make CMakeFiles/hw10.dir/homework/hw10.cpp.i
+.PHONY : homework/hw10.cpp.i
+
+homework/hw10.s: homework/hw10.cpp.s
+.PHONY : homework/hw10.s
+
+# target to generate assembly for a file
+homework/hw10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw10.dir\build.make CMakeFiles/hw10.dir/homework/hw10.cpp.s
+.PHONY : homework/hw10.cpp.s
+
+homework/hw11.obj: homework/hw11.cpp.obj
+.PHONY : homework/hw11.obj
+
+# target to build an object file
+homework/hw11.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw11.dir\build.make CMakeFiles/hw11.dir/homework/hw11.cpp.obj
+.PHONY : homework/hw11.cpp.obj
+
+homework/hw11.i: homework/hw11.cpp.i
+.PHONY : homework/hw11.i
+
+# target to preprocess a source file
+homework/hw11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw11.dir\build.make CMakeFiles/hw11.dir/homework/hw11.cpp.i
+.PHONY : homework/hw11.cpp.i
+
+homework/hw11.s: homework/hw11.cpp.s
+.PHONY : homework/hw11.s
+
+# target to generate assembly for a file
+homework/hw11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw11.dir\build.make CMakeFiles/hw11.dir/homework/hw11.cpp.s
+.PHONY : homework/hw11.cpp.s
+
+homework/hw12.obj: homework/hw12.cpp.obj
+.PHONY : homework/hw12.obj
+
+# target to build an object file
+homework/hw12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw12.dir\build.make CMakeFiles/hw12.dir/homework/hw12.cpp.obj
+.PHONY : homework/hw12.cpp.obj
+
+homework/hw12.i: homework/hw12.cpp.i
+.PHONY : homework/hw12.i
+
+# target to preprocess a source file
+homework/hw12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw12.dir\build.make CMakeFiles/hw12.dir/homework/hw12.cpp.i
+.PHONY : homework/hw12.cpp.i
+
+homework/hw12.s: homework/hw12.cpp.s
+.PHONY : homework/hw12.s
+
+# target to generate assembly for a file
+homework/hw12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw12.dir\build.make CMakeFiles/hw12.dir/homework/hw12.cpp.s
+.PHONY : homework/hw12.cpp.s
+
+homework/hw7.obj: homework/hw7.cpp.obj
+.PHONY : homework/hw7.obj
+
+# target to build an object file
+homework/hw7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw7.dir\build.make CMakeFiles/hw7.dir/homework/hw7.cpp.obj
+.PHONY : homework/hw7.cpp.obj
+
+homework/hw7.i: homework/hw7.cpp.i
+.PHONY : homework/hw7.i
+
+# target to preprocess a source file
+homework/hw7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw7.dir\build.make CMakeFiles/hw7.dir/homework/hw7.cpp.i
+.PHONY : homework/hw7.cpp.i
+
+homework/hw7.s: homework/hw7.cpp.s
+.PHONY : homework/hw7.s
+
+# target to generate assembly for a file
+homework/hw7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw7.dir\build.make CMakeFiles/hw7.dir/homework/hw7.cpp.s
+.PHONY : homework/hw7.cpp.s
+
+homework/hw8.obj: homework/hw8.cpp.obj
+.PHONY : homework/hw8.obj
+
+# target to build an object file
+homework/hw8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw8.dir\build.make CMakeFiles/hw8.dir/homework/hw8.cpp.obj
+.PHONY : homework/hw8.cpp.obj
+
+homework/hw8.i: homework/hw8.cpp.i
+.PHONY : homework/hw8.i
+
+# target to preprocess a source file
+homework/hw8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw8.dir\build.make CMakeFiles/hw8.dir/homework/hw8.cpp.i
+.PHONY : homework/hw8.cpp.i
+
+homework/hw8.s: homework/hw8.cpp.s
+.PHONY : homework/hw8.s
+
+# target to generate assembly for a file
+homework/hw8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw8.dir\build.make CMakeFiles/hw8.dir/homework/hw8.cpp.s
+.PHONY : homework/hw8.cpp.s
+
+homework/hw9.obj: homework/hw9.cpp.obj
+.PHONY : homework/hw9.obj
+
+# target to build an object file
+homework/hw9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw9.dir\build.make CMakeFiles/hw9.dir/homework/hw9.cpp.obj
+.PHONY : homework/hw9.cpp.obj
+
+homework/hw9.i: homework/hw9.cpp.i
+.PHONY : homework/hw9.i
+
+# target to preprocess a source file
+homework/hw9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw9.dir\build.make CMakeFiles/hw9.dir/homework/hw9.cpp.i
+.PHONY : homework/hw9.cpp.i
+
+homework/hw9.s: homework/hw9.cpp.s
+.PHONY : homework/hw9.s
+
+# target to generate assembly for a file
+homework/hw9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hw9.dir\build.make CMakeFiles/hw9.dir/homework/hw9.cpp.s
+.PHONY : homework/hw9.cpp.s
 
 homework/owo1.obj: homework/owo1.cpp.obj
 .PHONY : homework/owo1.obj
@@ -575,7 +797,13 @@ help:
 	@echo ... d066
 	@echo ... e924
 	@echo ... homework5
+	@echo ... hw10
+	@echo ... hw11
+	@echo ... hw12
 	@echo ... hw6
+	@echo ... hw7
+	@echo ... hw8
+	@echo ... hw9
 	@echo ... leetcode2
 	@echo ... lt49
 	@echo ... virtual
@@ -591,6 +819,24 @@ help:
 	@echo ... homework/homework_6.obj
 	@echo ... homework/homework_6.i
 	@echo ... homework/homework_6.s
+	@echo ... homework/hw10.obj
+	@echo ... homework/hw10.i
+	@echo ... homework/hw10.s
+	@echo ... homework/hw11.obj
+	@echo ... homework/hw11.i
+	@echo ... homework/hw11.s
+	@echo ... homework/hw12.obj
+	@echo ... homework/hw12.i
+	@echo ... homework/hw12.s
+	@echo ... homework/hw7.obj
+	@echo ... homework/hw7.i
+	@echo ... homework/hw7.s
+	@echo ... homework/hw8.obj
+	@echo ... homework/hw8.i
+	@echo ... homework/hw8.s
+	@echo ... homework/hw9.obj
+	@echo ... homework/hw9.i
+	@echo ... homework/hw9.s
 	@echo ... homework/owo1.obj
 	@echo ... homework/owo1.i
 	@echo ... homework/owo1.s
