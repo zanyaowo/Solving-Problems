@@ -16,5 +16,7 @@ C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw10.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw11.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/hw12.dir
+C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/C458.dir
+C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/C456.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
