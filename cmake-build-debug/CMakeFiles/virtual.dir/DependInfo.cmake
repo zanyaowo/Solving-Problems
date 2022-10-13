@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/tea91/IdeaProjects/leetcode-or-zero_judge/vitrual.cpp" "CMakeFiles/virtual.dir/vitrual.cpp.obj" "gcc" "CMakeFiles/virtual.dir/vitrual.cpp.obj.d"
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/vitrual.cpp" "CMakeFiles/virtual.dir/vitrual.cpp.obj" "gcc" "CMakeFiles/virtual.dir/vitrual.cpp.obj.d"
   )
 
 # Targets to which this target links.

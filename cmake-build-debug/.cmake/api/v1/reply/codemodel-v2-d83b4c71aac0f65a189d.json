@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ZERO_JUDGE",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_JUDGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_JUDGE-Debug-56ab10ff20dad3563656.json",
+					"name" : "ZERO_JUDGE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a17::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a17-Debug-776a5d1343c2897229fd.json",
+					"name" : "a17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apcs-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apcs-1-Debug-3210335922a87484ee36.json",
+					"name" : "apcs-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apcs-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apcs-2-Debug-23f11f508f17739724c2.json",
+					"name" : "apcs-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "d028::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-d028-Debug-6b8cd8257e45b37221ba.json",
+					"name" : "d028",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "d066::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-d066-Debug-1f32439aca26a08dc77d.json",
+					"name" : "d066",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "e924::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-e924-Debug-c2caae62c140334d2503.json",
+					"name" : "e924",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "homework5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-homework5-Debug-dd02fba0c0c25edc9cf2.json",
+					"name" : "homework5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw10-Debug-0194162cf78fbec3af6c.json",
+					"name" : "hw10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw11-Debug-06816932670a910a6393.json",
+					"name" : "hw11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw12-Debug-5525b494c1615da48265.json",
+					"name" : "hw12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw6-Debug-01df0d4ea18bd107ac62.json",
+					"name" : "hw6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw7-Debug-35271ea9c8d210541ba7.json",
+					"name" : "hw7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw8-Debug-2bfeac9577717e360fd1.json",
+					"name" : "hw8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw9-Debug-8c24f0121575c3ef6ddb.json",
+					"name" : "hw9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode2-Debug-a76b6000c45ee450899c.json",
+					"name" : "leetcode2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt49::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt49-Debug-ffb5560f7afc6281d20e.json",
+					"name" : "lt49",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "virtual::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-virtual-Debug-026be498826627961de1.json",
+					"name" : "virtual",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug",
+		"source" : "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
