@@ -375,6 +375,19 @@ C456/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C456.dir\build.make CMakeFiles/C456.dir/build
 .PHONY : C456/fast
 
+#=============================================================================
+# Target rules for targets named C299
+
+# Build rule for target.
+C299: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C299
+.PHONY : C299
+
+# fast build rule for target.
+C299/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C299.dir\build.make CMakeFiles/C299.dir/build
+.PHONY : C299/fast
+
 apcs/2020-1-1.obj: apcs/2020-1-1.cpp.obj
 .PHONY : apcs/2020-1-1.obj
 
@@ -735,6 +748,33 @@ vitrual.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\virtual.dir\build.make CMakeFiles/virtual.dir/vitrual.cpp.s
 .PHONY : vitrual.cpp.s
 
+zero-judge/C299.obj: zero-judge/C299.cpp.obj
+.PHONY : zero-judge/C299.obj
+
+# target to build an object file
+zero-judge/C299.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C299.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C299.dir\build.make CMakeFiles/C299.dir/zero-judge/C299.cpp.obj
+.PHONY : zero-judge/C299.cpp.obj
+
+zero-judge/C299.i: zero-judge/C299.cpp.i
+.PHONY : zero-judge/C299.i
+
+# target to preprocess a source file
+zero-judge/C299.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C299.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C299.dir\build.make CMakeFiles/C299.dir/zero-judge/C299.cpp.i
+.PHONY : zero-judge/C299.cpp.i
+
+zero-judge/C299.s: zero-judge/C299.cpp.s
+.PHONY : zero-judge/C299.s
+
+# target to generate assembly for a file
+zero-judge/C299.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C299.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C299.dir\build.make CMakeFiles/C299.dir/zero-judge/C299.cpp.s
+.PHONY : zero-judge/C299.cpp.s
+
 zero-judge/C455.obj: zero-judge/C455.cpp.obj
 .PHONY : zero-judge/C455.obj
 
@@ -893,6 +933,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... C299
 	@echo ... C456
 	@echo ... C458
 	@echo ... ZERO_JUDGE
@@ -958,6 +999,9 @@ help:
 	@echo ... vitrual.obj
 	@echo ... vitrual.i
 	@echo ... vitrual.s
+	@echo ... zero-judge/C299.obj
+	@echo ... zero-judge/C299.i
+	@echo ... zero-judge/C299.s
 	@echo ... zero-judge/C455.obj
 	@echo ... zero-judge/C455.i
 	@echo ... zero-judge/C455.s

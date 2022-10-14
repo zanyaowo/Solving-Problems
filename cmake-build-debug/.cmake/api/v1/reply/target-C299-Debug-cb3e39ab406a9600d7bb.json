@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "a17.exe"
+			"path" : "C299.exe"
 		},
 		{
-			"path" : "a17.pdb"
+			"path" : "C299.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 26,
 				"parent" : 0
 			}
 		]
@@ -55,14 +55,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
-	"id" : "a17::@6890427a1f51a3e7e1df",
+	"id" : "C299::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -82,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "a17",
-	"nameOnDisk" : "a17.exe",
+	"name" : "C299",
+	"nameOnDisk" : "C299.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -95,10 +92,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
@@ -107,25 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "zero-judge/a17.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "zero-judge/C455.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "zero-judge/C458.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "zero-judge/C456.cpp",
+			"path" : "zero-judge/C299.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

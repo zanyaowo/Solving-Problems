@@ -4,27 +4,43 @@ using namespace std;
 
 int ct,len = 0;
 unordered_map<char, vector<int>> table(100);
-vector<char> vis = vector<char>(100);
-vector<int> v1_dt_table = vector<int>(100000);
+unordered_map<char, int> vis = unordered_map<char, int>(100);
+vector<int> v1_dt_table = vector<int>(10000);
 
 int split(string str1, string str2){
     int ans = 0;
     string target = "";
     for(int i = 0; i < str1.length(); i++){
+        bool include = false;
         char key = str1[i];
-        for(int j = 0; j < str2.length(); j++){
-               auto al = [&key](char ele){ return (key == ele);};
-               if(str1[i] == str2[j] && !any_of(vis.begin(), vis.end(), al)){
+        for(int j = 0; j < str2.length() && vis[key] != 1; j++){
+               if(str1[i] == str2[j]){
                    table[key].push_back(j);
+                   include = 1;
                }
         }
+        if(!include){
+            str1 = ""; i--;
+        }
+        vis[key] = 1;
+    }
 
-        vis.push_back(key);
+    for(int i = 0; i<str1.length(); i+=2){
+        char first = str1[i], sec = str1[i+1];
+        int min_va = 10000;
+        pair<int, int> loc;
+        for(auto i2: table[first]){
+             for(auto j : table[sec]){
+                 min_va = min((j - i2), min_va);
+                 v1_dt_table.push_back(i2);
+                 v1_dt_table.push_back(j);
+             }
+        }
     }
     return ans;
 }
-// aabbccdd
-// abcd
+// aabbccdd aabbcccddcd
+// abcde
 int main(){
     string in1, in2;
     cin >> in1 >> in2;
