@@ -14,11 +14,7 @@ struct ListNode {
 
 
 
-ListNode* ListPrint(ListNode *l1, ListNode *l2){
-
-    return final1 -> next;
-}
-
 int main(){
+    cout << 1%998244353;
     return 0;
 }
