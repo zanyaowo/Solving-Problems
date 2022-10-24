@@ -181,6 +181,19 @@ leetcode2/fast:
 .PHONY : leetcode2/fast
 
 #=============================================================================
+# Target rules for targets named leetcode167
+
+# Build rule for target.
+leetcode167: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode167
+.PHONY : leetcode167
+
+# fast build rule for target.
+leetcode167/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/build
+.PHONY : leetcode167/fast
+
+#=============================================================================
 # Target rules for targets named a17
 
 # Build rule for target.
@@ -689,6 +702,30 @@ leetcode/leetcode-49.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/leetcode/leetcode-49.cpp.s
 .PHONY : leetcode/leetcode-49.cpp.s
 
+leetcode/leetcode167.obj: leetcode/leetcode167.cpp.obj
+.PHONY : leetcode/leetcode167.obj
+
+# target to build an object file
+leetcode/leetcode167.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/leetcode/leetcode167.cpp.obj
+.PHONY : leetcode/leetcode167.cpp.obj
+
+leetcode/leetcode167.i: leetcode/leetcode167.cpp.i
+.PHONY : leetcode/leetcode167.i
+
+# target to preprocess a source file
+leetcode/leetcode167.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/leetcode/leetcode167.cpp.i
+.PHONY : leetcode/leetcode167.cpp.i
+
+leetcode/leetcode167.s: leetcode/leetcode167.cpp.s
+.PHONY : leetcode/leetcode167.s
+
+# target to generate assembly for a file
+leetcode/leetcode167.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/leetcode/leetcode167.cpp.s
+.PHONY : leetcode/leetcode167.cpp.s
+
 leetcode/leetcode2.obj: leetcode/leetcode2.cpp.obj
 .PHONY : leetcode/leetcode2.obj
 
@@ -989,6 +1026,7 @@ help:
 	@echo ... hw8
 	@echo ... hw9
 	@echo ... leetcode1
+	@echo ... leetcode167
 	@echo ... leetcode2
 	@echo ... lt49
 	@echo ... virtual
@@ -1028,6 +1066,9 @@ help:
 	@echo ... leetcode/leetcode-49.obj
 	@echo ... leetcode/leetcode-49.i
 	@echo ... leetcode/leetcode-49.s
+	@echo ... leetcode/leetcode167.obj
+	@echo ... leetcode/leetcode167.i
+	@echo ... leetcode/leetcode167.s
 	@echo ... leetcode/leetcode2.obj
 	@echo ... leetcode/leetcode2.i
 	@echo ... leetcode/leetcode2.s

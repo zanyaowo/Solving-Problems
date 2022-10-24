@@ -23,7 +23,6 @@ vector<int> twoSum(vector<int> arr,int target){
 
 // two-pointer with merge_sort
 
-
 vector<int> merge_sort(vector<int> target){
     if(target.size() > 1){
         int mid = target.size() / 2;
@@ -56,14 +55,6 @@ vector<int> merge_sort(vector<int> target){
     return target;
 }
 
-vector<int> Solution2(vector<int>& nums, int target) {
-    vector<int> arr = vector<int>();
-    int lp = 0, rp = nums.size()-1;
-    while(lp < rp){
-
-    }
-
-}
 
 int main() {
     //test
