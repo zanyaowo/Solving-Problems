@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/zanya/CLionProjects/leetcode-or-zero_judge/homework/hw12.cpp" "CMakeFiles/hw12.dir/homework/hw12.cpp.obj" "gcc" "CMakeFiles/hw12.dir/homework/hw12.cpp.obj.d"
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/homework/hw12.cpp" "CMakeFiles/hw12.dir/homework/hw12.cpp.obj" "gcc" "CMakeFiles/hw12.dir/homework/hw12.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge
+CMAKE_SOURCE_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-bui
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -179,6 +179,19 @@ leetcode2: cmake_check_build_system
 leetcode2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/build
 .PHONY : leetcode2/fast
+
+#=============================================================================
+# Target rules for targets named leetcode3
+
+# Build rule for target.
+leetcode3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode3
+.PHONY : leetcode3
+
+# fast build rule for target.
+leetcode3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode3.dir\build.make CMakeFiles/leetcode3.dir/build
+.PHONY : leetcode3/fast
 
 #=============================================================================
 # Target rules for targets named leetcode167
@@ -750,6 +763,30 @@ leetcode/leetcode2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/leetcode/leetcode2.cpp.s
 .PHONY : leetcode/leetcode2.cpp.s
 
+leetcode/leetcode3.obj: leetcode/leetcode3.cpp.obj
+.PHONY : leetcode/leetcode3.obj
+
+# target to build an object file
+leetcode/leetcode3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode3.dir\build.make CMakeFiles/leetcode3.dir/leetcode/leetcode3.cpp.obj
+.PHONY : leetcode/leetcode3.cpp.obj
+
+leetcode/leetcode3.i: leetcode/leetcode3.cpp.i
+.PHONY : leetcode/leetcode3.i
+
+# target to preprocess a source file
+leetcode/leetcode3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode3.dir\build.make CMakeFiles/leetcode3.dir/leetcode/leetcode3.cpp.i
+.PHONY : leetcode/leetcode3.cpp.i
+
+leetcode/leetcode3.s: leetcode/leetcode3.cpp.s
+.PHONY : leetcode/leetcode3.s
+
+# target to generate assembly for a file
+leetcode/leetcode3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode3.dir\build.make CMakeFiles/leetcode3.dir/leetcode/leetcode3.cpp.s
+.PHONY : leetcode/leetcode3.cpp.s
+
 leetcode/problem_1.obj: leetcode/problem_1.cpp.obj
 .PHONY : leetcode/problem_1.obj
 
@@ -1028,6 +1065,7 @@ help:
 	@echo ... leetcode1
 	@echo ... leetcode167
 	@echo ... leetcode2
+	@echo ... leetcode3
 	@echo ... lt49
 	@echo ... virtual
 	@echo ... apcs/2020-1-1.obj
@@ -1072,6 +1110,9 @@ help:
 	@echo ... leetcode/leetcode2.obj
 	@echo ... leetcode/leetcode2.i
 	@echo ... leetcode/leetcode2.s
+	@echo ... leetcode/leetcode3.obj
+	@echo ... leetcode/leetcode3.i
+	@echo ... leetcode/leetcode3.s
 	@echo ... leetcode/problem_1.obj
 	@echo ... leetcode/problem_1.i
 	@echo ... leetcode/problem_1.s

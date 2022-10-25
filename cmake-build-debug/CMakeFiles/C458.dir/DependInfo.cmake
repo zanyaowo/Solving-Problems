@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/zanya/CLionProjects/leetcode-or-zero_judge/zero-judge/C458.cpp" "CMakeFiles/C458.dir/zero-judge/C458.cpp.obj" "gcc" "CMakeFiles/C458.dir/zero-judge/C458.cpp.obj.d"
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/zero-judge/C458.cpp" "CMakeFiles/C458.dir/zero-judge/C458.cpp.obj" "gcc" "CMakeFiles/C458.dir/zero-judge/C458.cpp.obj.d"
   )
 
 # Targets to which this target links.

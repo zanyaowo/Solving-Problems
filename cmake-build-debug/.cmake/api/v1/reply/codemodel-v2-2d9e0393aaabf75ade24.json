@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ZERO_JUDGE",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "C299::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C299-Debug-7f3c5c5d2059ee0e6997.json",
+					"name" : "C299",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C456::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C456-Debug-660150a755a31f42209b.json",
+					"name" : "C456",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C458::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C458-Debug-1425e7e760f7c4b04976.json",
+					"name" : "C458",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_JUDGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_JUDGE-Debug-56ab10ff20dad3563656.json",
+					"name" : "ZERO_JUDGE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a17::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a17-Debug-700488dff4ff266662e7.json",
+					"name" : "a17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apcs-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apcs-1-Debug-633125b4bbc1ae31e830.json",
+					"name" : "apcs-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apcs-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apcs-2-Debug-4f7be5980927bc5814a2.json",
+					"name" : "apcs-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "d028::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-d028-Debug-b3da88e977dcb5254f62.json",
+					"name" : "d028",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "d066::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-d066-Debug-1f32439aca26a08dc77d.json",
+					"name" : "d066",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "e924::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-e924-Debug-0c9df26031b3bfdc7529.json",
+					"name" : "e924",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "homework5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-homework5-Debug-9dbf28631c8b5e947c17.json",
+					"name" : "homework5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw10-Debug-d541d1757fe28b3426fd.json",
+					"name" : "hw10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw11-Debug-8297fdc0a54366115f0f.json",
+					"name" : "hw11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw12-Debug-3ec510e2ace01f79ea2d.json",
+					"name" : "hw12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw6-Debug-582b3fb251a79acaff5e.json",
+					"name" : "hw6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw7-Debug-b0cefb759f2d7ad8f57d.json",
+					"name" : "hw7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw8-Debug-64e08741bf8ab5258486.json",
+					"name" : "hw8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw9-Debug-e2eec3602a1c148be3a1.json",
+					"name" : "hw9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode1-Debug-0498b34137d418330348.json",
+					"name" : "leetcode1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode167::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode167-Debug-083c2805466268de7821.json",
+					"name" : "leetcode167",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode2-Debug-8f22c986b9b61b681e30.json",
+					"name" : "leetcode2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode3-Debug-8563d9877911e601a41e.json",
+					"name" : "leetcode3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt49::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt49-Debug-f8324e6d680e2c4adedd.json",
+					"name" : "lt49",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "virtual::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-virtual-Debug-026be498826627961de1.json",
+					"name" : "virtual",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug",
+		"source" : "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
