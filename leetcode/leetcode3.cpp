@@ -13,16 +13,16 @@ int lengthOfLongestSubstring(string str) {
             vis[str[lp]] = 0;
             lp++;
         }else{
-            vis[str[lp]] = 1;
             vis[str[rp]] = 1;
             rp++;
         }
     }
+    len = max(len, rp-lp);
     return len;
 }
 
 int main(){
-    string str = "pwwkew";
+    string str = "aucp";
     int len = lengthOfLongestSubstring(str);
     cout << len;
     return 0;
