@@ -194,6 +194,19 @@ leetcode3/fast:
 .PHONY : leetcode3/fast
 
 #=============================================================================
+# Target rules for targets named leetcode4
+
+# Build rule for target.
+leetcode4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode4
+.PHONY : leetcode4
+
+# fast build rule for target.
+leetcode4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode4.dir\build.make CMakeFiles/leetcode4.dir/build
+.PHONY : leetcode4/fast
+
+#=============================================================================
 # Target rules for targets named leetcode167
 
 # Build rule for target.
@@ -691,6 +704,30 @@ homework/owo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\d028.dir\build.make CMakeFiles/d028.dir/homework/owo1.cpp.s
 .PHONY : homework/owo1.cpp.s
 
+leetcode/leetcode-4.obj: leetcode/leetcode-4.cpp.obj
+.PHONY : leetcode/leetcode-4.obj
+
+# target to build an object file
+leetcode/leetcode-4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode4.dir\build.make CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj
+.PHONY : leetcode/leetcode-4.cpp.obj
+
+leetcode/leetcode-4.i: leetcode/leetcode-4.cpp.i
+.PHONY : leetcode/leetcode-4.i
+
+# target to preprocess a source file
+leetcode/leetcode-4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode4.dir\build.make CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.i
+.PHONY : leetcode/leetcode-4.cpp.i
+
+leetcode/leetcode-4.s: leetcode/leetcode-4.cpp.s
+.PHONY : leetcode/leetcode-4.s
+
+# target to generate assembly for a file
+leetcode/leetcode-4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode4.dir\build.make CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.s
+.PHONY : leetcode/leetcode-4.cpp.s
+
 leetcode/leetcode-49.obj: leetcode/leetcode-49.cpp.obj
 .PHONY : leetcode/leetcode-49.obj
 
@@ -1066,6 +1103,7 @@ help:
 	@echo ... leetcode167
 	@echo ... leetcode2
 	@echo ... leetcode3
+	@echo ... leetcode4
 	@echo ... lt49
 	@echo ... virtual
 	@echo ... apcs/2020-1-1.obj
@@ -1101,6 +1139,9 @@ help:
 	@echo ... homework/owo1.obj
 	@echo ... homework/owo1.i
 	@echo ... homework/owo1.s
+	@echo ... leetcode/leetcode-4.obj
+	@echo ... leetcode/leetcode-4.i
+	@echo ... leetcode/leetcode-4.s
 	@echo ... leetcode/leetcode-49.obj
 	@echo ... leetcode/leetcode-49.i
 	@echo ... leetcode/leetcode-49.s

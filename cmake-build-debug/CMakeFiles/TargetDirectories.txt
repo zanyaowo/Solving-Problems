@@ -4,6 +4,7 @@ C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/leetcode1.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/leetcode2.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/leetcode3.dir
+C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/leetcode4.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/leetcode167.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/a17.dir
 C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/CMakeFiles/lt49.dir

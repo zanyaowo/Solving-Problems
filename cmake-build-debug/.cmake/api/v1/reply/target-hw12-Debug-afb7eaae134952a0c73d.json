@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "homework5.exe"
+			"path" : "hw12.exe"
 		},
 		{
-			"path" : "homework5.pdb"
+			"path" : "hw12.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 27,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "homework5::@6890427a1f51a3e7e1df",
+	"id" : "hw12::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "homework5",
-	"nameOnDisk" : "homework5.exe",
+	"name" : "hw12",
+	"nameOnDisk" : "hw12.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "homework/homework5.cpp",
+			"path" : "homework/hw12.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
