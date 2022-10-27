@@ -752,6 +752,30 @@ leetcode/leetcode-49.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/leetcode/leetcode-49.cpp.s
 .PHONY : leetcode/leetcode-49.cpp.s
 
+leetcode/leetcode141.obj: leetcode/leetcode141.cpp.obj
+.PHONY : leetcode/leetcode141.obj
+
+# target to build an object file
+leetcode/leetcode141.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode1.dir\build.make CMakeFiles/leetcode1.dir/leetcode/leetcode141.cpp.obj
+.PHONY : leetcode/leetcode141.cpp.obj
+
+leetcode/leetcode141.i: leetcode/leetcode141.cpp.i
+.PHONY : leetcode/leetcode141.i
+
+# target to preprocess a source file
+leetcode/leetcode141.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode1.dir\build.make CMakeFiles/leetcode1.dir/leetcode/leetcode141.cpp.i
+.PHONY : leetcode/leetcode141.cpp.i
+
+leetcode/leetcode141.s: leetcode/leetcode141.cpp.s
+.PHONY : leetcode/leetcode141.s
+
+# target to generate assembly for a file
+leetcode/leetcode141.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode1.dir\build.make CMakeFiles/leetcode1.dir/leetcode/leetcode141.cpp.s
+.PHONY : leetcode/leetcode141.cpp.s
+
 leetcode/leetcode167.obj: leetcode/leetcode167.cpp.obj
 .PHONY : leetcode/leetcode167.obj
 
@@ -1145,6 +1169,9 @@ help:
 	@echo ... leetcode/leetcode-49.obj
 	@echo ... leetcode/leetcode-49.i
 	@echo ... leetcode/leetcode-49.s
+	@echo ... leetcode/leetcode141.obj
+	@echo ... leetcode/leetcode141.i
+	@echo ... leetcode/leetcode141.s
 	@echo ... leetcode/leetcode167.obj
 	@echo ... leetcode/leetcode167.i
 	@echo ... leetcode/leetcode167.s
