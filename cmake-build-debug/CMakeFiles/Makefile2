@@ -70,6 +70,7 @@ all: CMakeFiles/leetcode2.dir/all
 all: CMakeFiles/leetcode3.dir/all
 all: CMakeFiles/leetcode4.dir/all
 all: CMakeFiles/leetcode167.dir/all
+all: CMakeFiles/leetcode209.dir/all
 all: CMakeFiles/a17.dir/all
 all: CMakeFiles/lt49.dir/all
 all: CMakeFiles/apcs-1.dir/all
@@ -102,6 +103,7 @@ clean: CMakeFiles/leetcode2.dir/clean
 clean: CMakeFiles/leetcode3.dir/clean
 clean: CMakeFiles/leetcode4.dir/clean
 clean: CMakeFiles/leetcode167.dir/clean
+clean: CMakeFiles/leetcode209.dir/clean
 clean: CMakeFiles/a17.dir/clean
 clean: CMakeFiles/lt49.dir/clean
 clean: CMakeFiles/apcs-1.dir/clean
@@ -180,7 +182,7 @@ CMakeFiles/d066.dir/clean:
 CMakeFiles/virtual.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\virtual.dir\build.make CMakeFiles/virtual.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\virtual.dir\build.make CMakeFiles/virtual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target virtual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target virtual"
 .PHONY : CMakeFiles/virtual.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,12 +208,12 @@ CMakeFiles/virtual.dir/clean:
 CMakeFiles/leetcode1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode1.dir\build.make CMakeFiles/leetcode1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode1.dir\build.make CMakeFiles/leetcode1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=41,42,43 "Built target leetcode1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=41,42,43,44 "Built target leetcode1"
 .PHONY : CMakeFiles/leetcode1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/leetcode1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/leetcode1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/leetcode1.dir/rule
@@ -232,7 +234,7 @@ CMakeFiles/leetcode1.dir/clean:
 CMakeFiles/leetcode2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode2.dir\build.make CMakeFiles/leetcode2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target leetcode2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target leetcode2"
 .PHONY : CMakeFiles/leetcode2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +260,7 @@ CMakeFiles/leetcode2.dir/clean:
 CMakeFiles/leetcode3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode3.dir\build.make CMakeFiles/leetcode3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode3.dir\build.make CMakeFiles/leetcode3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target leetcode3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target leetcode3"
 .PHONY : CMakeFiles/leetcode3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +286,7 @@ CMakeFiles/leetcode3.dir/clean:
 CMakeFiles/leetcode4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode4.dir\build.make CMakeFiles/leetcode4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode4.dir\build.make CMakeFiles/leetcode4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target leetcode4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target leetcode4"
 .PHONY : CMakeFiles/leetcode4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -310,7 +312,7 @@ CMakeFiles/leetcode4.dir/clean:
 CMakeFiles/leetcode167.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target leetcode167"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target leetcode167"
 .PHONY : CMakeFiles/leetcode167.dir/all
 
 # Build rule for subdir invocation for target.
@@ -328,6 +330,32 @@ leetcode167: CMakeFiles/leetcode167.dir/rule
 CMakeFiles/leetcode167.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode167.dir\build.make CMakeFiles/leetcode167.dir/clean
 .PHONY : CMakeFiles/leetcode167.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/leetcode209.dir
+
+# All Build rule for target.
+CMakeFiles/leetcode209.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode209.dir\build.make CMakeFiles/leetcode209.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode209.dir\build.make CMakeFiles/leetcode209.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target leetcode209"
+.PHONY : CMakeFiles/leetcode209.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/leetcode209.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/leetcode209.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/leetcode209.dir/rule
+
+# Convenience name for target.
+leetcode209: CMakeFiles/leetcode209.dir/rule
+.PHONY : leetcode209
+
+# clean rule for target.
+CMakeFiles/leetcode209.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode209.dir\build.make CMakeFiles/leetcode209.dir/clean
+.PHONY : CMakeFiles/leetcode209.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/a17.dir
@@ -362,7 +390,7 @@ CMakeFiles/a17.dir/clean:
 CMakeFiles/lt49.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lt49.dir\build.make CMakeFiles/lt49.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target lt49"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target lt49"
 .PHONY : CMakeFiles/lt49.dir/all
 
 # Build rule for subdir invocation for target.
