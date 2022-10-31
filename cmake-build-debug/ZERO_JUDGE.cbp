@@ -369,6 +369,50 @@
 					<DistClean command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="leetcode209">
+				<Option output="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/leetcode209.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode209"/>
+					<CompileFile command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode209/fast">
+				<Option output="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/leetcode209.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode209/fast"/>
+					<CompileFile command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ptivs/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="a17">
 				<Option output="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug/a17.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/cmake-build-debug"/>
@@ -1185,6 +1229,10 @@
 		</Unit>
 		<Unit filename="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/leetcode/leetcode2.cpp">
 			<Option target="leetcode2"/>
+		</Unit>
+		<Unit filename="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/leetcode/leetcode209.cpp">
+			<Option target="leetcode1"/>
+			<Option target="leetcode209"/>
 		</Unit>
 		<Unit filename="C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/leetcode/leetcode3.cpp">
 			<Option target="leetcode3"/>
