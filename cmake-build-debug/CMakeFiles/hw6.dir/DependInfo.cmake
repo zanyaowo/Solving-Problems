@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/homework/homework_6.cpp" "CMakeFiles/hw6.dir/homework/homework_6.cpp.obj" "gcc" "CMakeFiles/hw6.dir/homework/homework_6.cpp.obj.d"
+  "C:/Users/zanya/CLionProjects/leetcode-or-zero_judge/homework/homework_6.cpp" "CMakeFiles/hw6.dir/homework/homework_6.cpp.obj" "gcc" "CMakeFiles/hw6.dir/homework/homework_6.cpp.obj.d"
   )
 
 # Targets to which this target links.
