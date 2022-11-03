@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge
+CMAKE_SOURCE_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leetcode4.dir/depend.make
@@ -71,16 +71,16 @@ include CMakeFiles/leetcode4.dir/flags.make
 CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj: CMakeFiles/leetcode4.dir/flags.make
 CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj: ../leetcode/leetcode-4.cpp
 CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj: CMakeFiles/leetcode4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj"
-	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj -MF CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.obj.d -o CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.obj -c C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\leetcode\leetcode-4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.obj -MF CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.obj.d -o CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.obj -c C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\leetcode\leetcode-4.cpp
 
 CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.i"
-	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\leetcode\leetcode-4.cpp > CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.i
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\leetcode\leetcode-4.cpp > CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.i
 
 CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode4.dir/leetcode/leetcode-4.cpp.s"
-	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\leetcode\leetcode-4.cpp -o CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.s
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\leetcode\leetcode-4.cpp -o CMakeFiles\leetcode4.dir\leetcode\leetcode-4.cpp.s
 
 # Object files for target leetcode4
 leetcode4_OBJECTS = \
@@ -94,7 +94,7 @@ leetcode4.exe: CMakeFiles/leetcode4.dir/build.make
 leetcode4.exe: CMakeFiles/leetcode4.dir/linklibs.rsp
 leetcode4.exe: CMakeFiles/leetcode4.dir/objects1.rsp
 leetcode4.exe: CMakeFiles/leetcode4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\leetcode4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/leetcode4.dir/clean:
 .PHONY : CMakeFiles/leetcode4.dir/clean
 
 CMakeFiles/leetcode4.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\zanya\CLionProjects\leetcode-or-zero_judge C:\Users\zanya\CLionProjects\leetcode-or-zero_judge C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles\leetcode4.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles\leetcode4.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leetcode4.dir/depend
 

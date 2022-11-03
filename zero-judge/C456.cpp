@@ -3,11 +3,17 @@
 using namespace std;
 
 // Adjancency_List
-int vis[Max];
+int ans;
+int vis[Max], p[Max];
 vector<int> AL[Max], v[Max];
 vector<int> cnt= vector<int>(Max);
 queue<int> q;
 //number of people
+
+int pa(int x){
+    if(p[x]) return x;
+    else return p[x] = pa(p[x]);
+}
 
 int main(){
     int n, count;
@@ -20,7 +26,7 @@ int main(){
         cnt[a]++; cnt[b]++;
     }
     for(int i =1; i<=n; i++){
-        for(int m = 0; m<=n; i++){
+        for(int m = 0; m<=n; m++){
             if(cnt[m] == i){
                 q.push(m);
                 vis[m] = 1;
@@ -40,5 +46,23 @@ int main(){
             }
         }
     }
+    for (int i = n; i >= 1; i--){
+        for (auto j:v[i]){
+            p[j] = -1;
+            for (auto k:AL[j]){
+                if (!p[k]) continue;
+                int x = pa(j), y = pa(k);
+                if (x != y){
+                    if (x > y) swap(x, y);
+                    p[x] += p[y];
+                    p[y] = x;
+                }
+            }
+        }
+        for (int j = 1; j <= n; j++){
+            if (p[j] < 0) ans = max(ans, -p[j]*i);
+        }
+    }
+    cout << "owo";
     return 0;
 }
