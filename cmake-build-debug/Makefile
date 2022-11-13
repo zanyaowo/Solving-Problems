@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge
+CMAKE_SOURCE_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-bui
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\zanya\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zanya\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,6 +415,19 @@ hw12/fast:
 .PHONY : hw12/fast
 
 #=============================================================================
+# Target rules for targets named C459
+
+# Build rule for target.
+C459: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C459
+.PHONY : C459
+
+# fast build rule for target.
+C459/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C459.dir\build.make CMakeFiles/C459.dir/build
+.PHONY : C459/fast
+
+#=============================================================================
 # Target rules for targets named C458
 
 # Build rule for target.
@@ -426,6 +439,19 @@ C458: cmake_check_build_system
 C458/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C458.dir\build.make CMakeFiles/C458.dir/build
 .PHONY : C458/fast
+
+#=============================================================================
+# Target rules for targets named C457
+
+# Build rule for target.
+C457: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C457
+.PHONY : C457
+
+# fast build rule for target.
+C457/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C457.dir\build.make CMakeFiles/C457.dir/build
+.PHONY : C457/fast
 
 #=============================================================================
 # Target rules for targets named C456
@@ -1038,6 +1064,30 @@ zero-judge/C456.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C456.dir\build.make CMakeFiles/C456.dir/zero-judge/C456.cpp.s
 .PHONY : zero-judge/C456.cpp.s
 
+zero-judge/C457.obj: zero-judge/C457.cpp.obj
+.PHONY : zero-judge/C457.obj
+
+# target to build an object file
+zero-judge/C457.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C457.dir\build.make CMakeFiles/C457.dir/zero-judge/C457.cpp.obj
+.PHONY : zero-judge/C457.cpp.obj
+
+zero-judge/C457.i: zero-judge/C457.cpp.i
+.PHONY : zero-judge/C457.i
+
+# target to preprocess a source file
+zero-judge/C457.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C457.dir\build.make CMakeFiles/C457.dir/zero-judge/C457.cpp.i
+.PHONY : zero-judge/C457.cpp.i
+
+zero-judge/C457.s: zero-judge/C457.cpp.s
+.PHONY : zero-judge/C457.s
+
+# target to generate assembly for a file
+zero-judge/C457.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C457.dir\build.make CMakeFiles/C457.dir/zero-judge/C457.cpp.s
+.PHONY : zero-judge/C457.cpp.s
+
 zero-judge/C458.obj: zero-judge/C458.cpp.obj
 .PHONY : zero-judge/C458.obj
 
@@ -1064,6 +1114,33 @@ zero-judge/C458.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C458.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C458.dir\build.make CMakeFiles/C458.dir/zero-judge/C458.cpp.s
 .PHONY : zero-judge/C458.cpp.s
+
+zero-judge/C459.obj: zero-judge/C459.cpp.obj
+.PHONY : zero-judge/C459.obj
+
+# target to build an object file
+zero-judge/C459.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C459.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C459.dir\build.make CMakeFiles/C459.dir/zero-judge/C459.cpp.obj
+.PHONY : zero-judge/C459.cpp.obj
+
+zero-judge/C459.i: zero-judge/C459.cpp.i
+.PHONY : zero-judge/C459.i
+
+# target to preprocess a source file
+zero-judge/C459.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C459.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C459.dir\build.make CMakeFiles/C459.dir/zero-judge/C459.cpp.i
+.PHONY : zero-judge/C459.cpp.i
+
+zero-judge/C459.s: zero-judge/C459.cpp.s
+.PHONY : zero-judge/C459.s
+
+# target to generate assembly for a file
+zero-judge/C459.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/zero-judge/C459.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C459.dir\build.make CMakeFiles/C459.dir/zero-judge/C459.cpp.s
+.PHONY : zero-judge/C459.cpp.s
 
 zero-judge/a17.obj: zero-judge/a17.cpp.obj
 .PHONY : zero-judge/a17.obj
@@ -1147,7 +1224,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... C299
 	@echo ... C456
+	@echo ... C457
 	@echo ... C458
+	@echo ... C459
 	@echo ... ZERO_JUDGE
 	@echo ... a17
 	@echo ... apcs-1
@@ -1243,9 +1322,15 @@ help:
 	@echo ... zero-judge/C456.obj
 	@echo ... zero-judge/C456.i
 	@echo ... zero-judge/C456.s
+	@echo ... zero-judge/C457.obj
+	@echo ... zero-judge/C457.i
+	@echo ... zero-judge/C457.s
 	@echo ... zero-judge/C458.obj
 	@echo ... zero-judge/C458.i
 	@echo ... zero-judge/C458.s
+	@echo ... zero-judge/C459.obj
+	@echo ... zero-judge/C459.i
+	@echo ... zero-judge/C459.s
 	@echo ... zero-judge/a17.obj
 	@echo ... zero-judge/a17.i
 	@echo ... zero-judge/a17.s

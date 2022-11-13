@@ -5,10 +5,9 @@ using namespace std;
 
 // solve with BFS?
 // Adjancency_List
-<<<<<<< HEAD
-=======
+
+
 int ans;
->>>>>>> 13c7755b595b58d7ef701bfa9cc93501a711441f
 int vis[Max], p[Max];
 vector<int> AL[Max], v[Max];
 vector<int> cnt= vector<int>(Max);
@@ -16,7 +15,7 @@ queue<int> q;
 //number of people
 
 int pa(int x){
-    if(p[x]) return x;
+    if(p[x] < 0) return x;
     else return p[x] = pa(p[x]);
 }
 
@@ -31,32 +30,14 @@ int main(){
         AL[b].push_back(a);
         cnt[a]++; cnt[b]++;
     }
-<<<<<<< HEAD
-    for(int i=1; i<=n; i++){
-        for(int m=1; m<=n; m++){
-=======
-<<<<<<< HEAD
     for(int i =1; i<=n; i++){
         for(int m = 0; m<=n; m++){
->>>>>>> 13c7755b595b58d7ef701bfa9cc93501a711441f
             if(cnt[m] == i){
                 q.push(m);
                 vis[m] = 1;
             }
         }
-<<<<<<< HEAD
 
-        while(!q.empty()){
-            int now = q.front();
-            q.pop();
-            v[i].push_back(now);
-            for(auto j: AL[now]){
-                cnt[j]--;
-                if(vis[j]) continue;
-                if(cnt[j] <= i){
-                    q.push(j);
-                    vis[j] = 1;
-=======
         while(!q.empty()){
             int front = q.front();
             q.pop();
@@ -67,21 +48,10 @@ int main(){
                 if(cnt[owo] <= i){
                     q.push(owo);
                     vis[owo] = 1;
->>>>>>> 13c7755b595b58d7ef701bfa9cc93501a711441f
                 }
             }
         }
     }
-<<<<<<< HEAD
-    for(int i = n; i>0; i--){
-        for(auto j: v[i]){
-            p[j] = -1;
-            for(auto k: AL[j]){
-
-            }
-        }
-    }
-=======
     for (int i = n; i >= 1; i--){
         for (auto j:v[i]){
             p[j] = -1;
@@ -99,30 +69,6 @@ int main(){
             if (p[j] < 0) ans = max(ans, -p[j]*i);
         }
     }
-    cout << "owo";
-=======
-//    for(int i =1; i<=n; i++){
-//        for(int m = 1; m<=n; i++){
-//            if(cnt[m] == i){
-//                q.push(m);
-//                vis[m] = 1;
-//            }
-//        }
-//        while(!q.empty()){
-//            int front = q.front();
-//            q.pop();
-//            v[i].push_back(front);
-//            for(auto owo:AL[front]){
-//                cnt[owo]--;
-//                if(vis[owo]) continue;
-//                if(cnt[owo] <= i){
-//                    q.push(owo);
-//                    vis[owo] = 1;
-//                }
-//            }
-//        }
-//    }
->>>>>>> 46af2d94ba3210caecc2e53e0502e2a95a119310
->>>>>>> 13c7755b595b58d7ef701bfa9cc93501a711441f
+    cout << ans;
     return 0;
 }
