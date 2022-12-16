@@ -453,6 +453,166 @@ C299/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C299.dir\build.make CMakeFiles/C299.dir/build
 .PHONY : C299/fast
 
+#=============================================================================
+# Target rules for targets named ITC-107-5
+
+# Build rule for target.
+ITC-107-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ITC-107-5
+.PHONY : ITC-107-5
+
+# fast build rule for target.
+ITC-107-5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-5.dir\build.make CMakeFiles/ITC-107-5.dir/build
+.PHONY : ITC-107-5/fast
+
+#=============================================================================
+# Target rules for targets named ITC-107-3
+
+# Build rule for target.
+ITC-107-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ITC-107-3
+.PHONY : ITC-107-3
+
+# fast build rule for target.
+ITC-107-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-3.dir\build.make CMakeFiles/ITC-107-3.dir/build
+.PHONY : ITC-107-3/fast
+
+#=============================================================================
+# Target rules for targets named ITC-105-3
+
+# Build rule for target.
+ITC-105-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ITC-105-3
+.PHONY : ITC-105-3
+
+# fast build rule for target.
+ITC-105-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-105-3.dir\build.make CMakeFiles/ITC-105-3.dir/build
+.PHONY : ITC-105-3/fast
+
+#=============================================================================
+# Target rules for targets named ITC-106-2
+
+# Build rule for target.
+ITC-106-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ITC-106-2
+.PHONY : ITC-106-2
+
+# fast build rule for target.
+ITC-106-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-106-2.dir\build.make CMakeFiles/ITC-106-2.dir/build
+.PHONY : ITC-106-2/fast
+
+ITC/105-3.obj: ITC/105-3.cpp.obj
+.PHONY : ITC/105-3.obj
+
+# target to build an object file
+ITC/105-3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/105-3.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-105-3.dir\build.make CMakeFiles/ITC-105-3.dir/ITC/105-3.cpp.obj
+.PHONY : ITC/105-3.cpp.obj
+
+ITC/105-3.i: ITC/105-3.cpp.i
+.PHONY : ITC/105-3.i
+
+# target to preprocess a source file
+ITC/105-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/105-3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-105-3.dir\build.make CMakeFiles/ITC-105-3.dir/ITC/105-3.cpp.i
+.PHONY : ITC/105-3.cpp.i
+
+ITC/105-3.s: ITC/105-3.cpp.s
+.PHONY : ITC/105-3.s
+
+# target to generate assembly for a file
+ITC/105-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/105-3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-105-3.dir\build.make CMakeFiles/ITC-105-3.dir/ITC/105-3.cpp.s
+.PHONY : ITC/105-3.cpp.s
+
+ITC/106-2.obj: ITC/106-2.cpp.obj
+.PHONY : ITC/106-2.obj
+
+# target to build an object file
+ITC/106-2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/106-2.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-106-2.dir\build.make CMakeFiles/ITC-106-2.dir/ITC/106-2.cpp.obj
+.PHONY : ITC/106-2.cpp.obj
+
+ITC/106-2.i: ITC/106-2.cpp.i
+.PHONY : ITC/106-2.i
+
+# target to preprocess a source file
+ITC/106-2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/106-2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-106-2.dir\build.make CMakeFiles/ITC-106-2.dir/ITC/106-2.cpp.i
+.PHONY : ITC/106-2.cpp.i
+
+ITC/106-2.s: ITC/106-2.cpp.s
+.PHONY : ITC/106-2.s
+
+# target to generate assembly for a file
+ITC/106-2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/106-2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-106-2.dir\build.make CMakeFiles/ITC-106-2.dir/ITC/106-2.cpp.s
+.PHONY : ITC/106-2.cpp.s
+
+ITC/107-3.obj: ITC/107-3.cpp.obj
+.PHONY : ITC/107-3.obj
+
+# target to build an object file
+ITC/107-3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/107-3.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-3.dir\build.make CMakeFiles/ITC-107-3.dir/ITC/107-3.cpp.obj
+.PHONY : ITC/107-3.cpp.obj
+
+ITC/107-3.i: ITC/107-3.cpp.i
+.PHONY : ITC/107-3.i
+
+# target to preprocess a source file
+ITC/107-3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/107-3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-3.dir\build.make CMakeFiles/ITC-107-3.dir/ITC/107-3.cpp.i
+.PHONY : ITC/107-3.cpp.i
+
+ITC/107-3.s: ITC/107-3.cpp.s
+.PHONY : ITC/107-3.s
+
+# target to generate assembly for a file
+ITC/107-3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/107-3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-3.dir\build.make CMakeFiles/ITC-107-3.dir/ITC/107-3.cpp.s
+.PHONY : ITC/107-3.cpp.s
+
+ITC/107-5.obj: ITC/107-5.cpp.obj
+.PHONY : ITC/107-5.obj
+
+# target to build an object file
+ITC/107-5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/107-5.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-5.dir\build.make CMakeFiles/ITC-107-5.dir/ITC/107-5.cpp.obj
+.PHONY : ITC/107-5.cpp.obj
+
+ITC/107-5.i: ITC/107-5.cpp.i
+.PHONY : ITC/107-5.i
+
+# target to preprocess a source file
+ITC/107-5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/107-5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-5.dir\build.make CMakeFiles/ITC-107-5.dir/ITC/107-5.cpp.i
+.PHONY : ITC/107-5.cpp.i
+
+ITC/107-5.s: ITC/107-5.cpp.s
+.PHONY : ITC/107-5.s
+
+# target to generate assembly for a file
+ITC/107-5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a17.dir\build.make CMakeFiles/a17.dir/ITC/107-5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ITC-107-5.dir\build.make CMakeFiles/ITC-107-5.dir/ITC/107-5.cpp.s
+.PHONY : ITC/107-5.cpp.s
+
 apcs/2020-1-1.obj: apcs/2020-1-1.cpp.obj
 .PHONY : apcs/2020-1-1.obj
 
@@ -1148,6 +1308,10 @@ help:
 	@echo ... C299
 	@echo ... C456
 	@echo ... C458
+	@echo ... ITC-105-3
+	@echo ... ITC-106-2
+	@echo ... ITC-107-3
+	@echo ... ITC-107-5
 	@echo ... ZERO_JUDGE
 	@echo ... a17
 	@echo ... apcs-1
@@ -1171,6 +1335,18 @@ help:
 	@echo ... leetcode4
 	@echo ... lt49
 	@echo ... virtual
+	@echo ... ITC/105-3.obj
+	@echo ... ITC/105-3.i
+	@echo ... ITC/105-3.s
+	@echo ... ITC/106-2.obj
+	@echo ... ITC/106-2.i
+	@echo ... ITC/106-2.s
+	@echo ... ITC/107-3.obj
+	@echo ... ITC/107-3.i
+	@echo ... ITC/107-3.s
+	@echo ... ITC/107-5.obj
+	@echo ... ITC/107-5.i
+	@echo ... ITC/107-5.s
 	@echo ... apcs/2020-1-1.obj
 	@echo ... apcs/2020-1-1.i
 	@echo ... apcs/2020-1-1.s

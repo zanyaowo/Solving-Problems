@@ -13,9 +13,7 @@ void swap(int a, int b){
 }
 
 int main(){
-    int a = 10 , b= 20 ;
-    cout << &a << endl;
-    swap(a,b);
+    cout << (int)'a';
     return 0;
 }
 

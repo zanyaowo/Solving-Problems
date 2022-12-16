@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/a17.dir/ITC/105-3.cpp.obj"
+  "CMakeFiles/a17.dir/ITC/105-3.cpp.obj.d"
+  "CMakeFiles/a17.dir/ITC/106-2.cpp.obj"
+  "CMakeFiles/a17.dir/ITC/106-2.cpp.obj.d"
+  "CMakeFiles/a17.dir/ITC/107-3.cpp.obj"
+  "CMakeFiles/a17.dir/ITC/107-3.cpp.obj.d"
+  "CMakeFiles/a17.dir/ITC/107-5.cpp.obj"
+  "CMakeFiles/a17.dir/ITC/107-5.cpp.obj.d"
   "CMakeFiles/a17.dir/zero-judge/C299.cpp.obj"
   "CMakeFiles/a17.dir/zero-judge/C299.cpp.obj.d"
   "CMakeFiles/a17.dir/zero-judge/C455.cpp.obj"

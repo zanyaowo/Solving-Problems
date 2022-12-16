@@ -8,6 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/ITC/105-3.cpp" "CMakeFiles/a17.dir/ITC/105-3.cpp.obj" "gcc" "CMakeFiles/a17.dir/ITC/105-3.cpp.obj.d"
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/ITC/106-2.cpp" "CMakeFiles/a17.dir/ITC/106-2.cpp.obj" "gcc" "CMakeFiles/a17.dir/ITC/106-2.cpp.obj.d"
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/ITC/107-3.cpp" "CMakeFiles/a17.dir/ITC/107-3.cpp.obj" "gcc" "CMakeFiles/a17.dir/ITC/107-3.cpp.obj.d"
+  "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/ITC/107-5.cpp" "CMakeFiles/a17.dir/ITC/107-5.cpp.obj" "gcc" "CMakeFiles/a17.dir/ITC/107-5.cpp.obj.d"
   "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/zero-judge/C299.cpp" "CMakeFiles/a17.dir/zero-judge/C299.cpp.obj" "gcc" "CMakeFiles/a17.dir/zero-judge/C299.cpp.obj.d"
   "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/zero-judge/C455.cpp" "CMakeFiles/a17.dir/zero-judge/C455.cpp.obj" "gcc" "CMakeFiles/a17.dir/zero-judge/C455.cpp.obj.d"
   "C:/Users/ptivs/CLionProjects/leetcode-or-zero_judge/zero-judge/C456.cpp" "CMakeFiles/a17.dir/zero-judge/C456.cpp.obj" "gcc" "CMakeFiles/a17.dir/zero-judge/C456.cpp.obj.d"

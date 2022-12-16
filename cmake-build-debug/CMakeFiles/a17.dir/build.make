@@ -138,13 +138,73 @@ CMakeFiles/a17.dir/zero-judge/C299.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a17.dir/zero-judge/C299.cpp.s"
 	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\zero-judge\C299.cpp -o CMakeFiles\a17.dir\zero-judge\C299.cpp.s
 
+CMakeFiles/a17.dir/ITC/107-5.cpp.obj: CMakeFiles/a17.dir/flags.make
+CMakeFiles/a17.dir/ITC/107-5.cpp.obj: ../ITC/107-5.cpp
+CMakeFiles/a17.dir/ITC/107-5.cpp.obj: CMakeFiles/a17.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a17.dir/ITC/107-5.cpp.obj"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a17.dir/ITC/107-5.cpp.obj -MF CMakeFiles\a17.dir\ITC\107-5.cpp.obj.d -o CMakeFiles\a17.dir\ITC\107-5.cpp.obj -c C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\107-5.cpp
+
+CMakeFiles/a17.dir/ITC/107-5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a17.dir/ITC/107-5.cpp.i"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\107-5.cpp > CMakeFiles\a17.dir\ITC\107-5.cpp.i
+
+CMakeFiles/a17.dir/ITC/107-5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a17.dir/ITC/107-5.cpp.s"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\107-5.cpp -o CMakeFiles\a17.dir\ITC\107-5.cpp.s
+
+CMakeFiles/a17.dir/ITC/107-3.cpp.obj: CMakeFiles/a17.dir/flags.make
+CMakeFiles/a17.dir/ITC/107-3.cpp.obj: ../ITC/107-3.cpp
+CMakeFiles/a17.dir/ITC/107-3.cpp.obj: CMakeFiles/a17.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a17.dir/ITC/107-3.cpp.obj"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a17.dir/ITC/107-3.cpp.obj -MF CMakeFiles\a17.dir\ITC\107-3.cpp.obj.d -o CMakeFiles\a17.dir\ITC\107-3.cpp.obj -c C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\107-3.cpp
+
+CMakeFiles/a17.dir/ITC/107-3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a17.dir/ITC/107-3.cpp.i"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\107-3.cpp > CMakeFiles\a17.dir\ITC\107-3.cpp.i
+
+CMakeFiles/a17.dir/ITC/107-3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a17.dir/ITC/107-3.cpp.s"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\107-3.cpp -o CMakeFiles\a17.dir\ITC\107-3.cpp.s
+
+CMakeFiles/a17.dir/ITC/105-3.cpp.obj: CMakeFiles/a17.dir/flags.make
+CMakeFiles/a17.dir/ITC/105-3.cpp.obj: ../ITC/105-3.cpp
+CMakeFiles/a17.dir/ITC/105-3.cpp.obj: CMakeFiles/a17.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a17.dir/ITC/105-3.cpp.obj"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a17.dir/ITC/105-3.cpp.obj -MF CMakeFiles\a17.dir\ITC\105-3.cpp.obj.d -o CMakeFiles\a17.dir\ITC\105-3.cpp.obj -c C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\105-3.cpp
+
+CMakeFiles/a17.dir/ITC/105-3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a17.dir/ITC/105-3.cpp.i"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\105-3.cpp > CMakeFiles\a17.dir\ITC\105-3.cpp.i
+
+CMakeFiles/a17.dir/ITC/105-3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a17.dir/ITC/105-3.cpp.s"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\105-3.cpp -o CMakeFiles\a17.dir\ITC\105-3.cpp.s
+
+CMakeFiles/a17.dir/ITC/106-2.cpp.obj: CMakeFiles/a17.dir/flags.make
+CMakeFiles/a17.dir/ITC/106-2.cpp.obj: ../ITC/106-2.cpp
+CMakeFiles/a17.dir/ITC/106-2.cpp.obj: CMakeFiles/a17.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a17.dir/ITC/106-2.cpp.obj"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a17.dir/ITC/106-2.cpp.obj -MF CMakeFiles\a17.dir\ITC\106-2.cpp.obj.d -o CMakeFiles\a17.dir\ITC\106-2.cpp.obj -c C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\106-2.cpp
+
+CMakeFiles/a17.dir/ITC/106-2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a17.dir/ITC/106-2.cpp.i"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\106-2.cpp > CMakeFiles\a17.dir\ITC\106-2.cpp.i
+
+CMakeFiles/a17.dir/ITC/106-2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a17.dir/ITC/106-2.cpp.s"
+	C:\Users\ptivs\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\ITC\106-2.cpp -o CMakeFiles\a17.dir\ITC\106-2.cpp.s
+
 # Object files for target a17
 a17_OBJECTS = \
 "CMakeFiles/a17.dir/zero-judge/a17.cpp.obj" \
 "CMakeFiles/a17.dir/zero-judge/C455.cpp.obj" \
 "CMakeFiles/a17.dir/zero-judge/C458.cpp.obj" \
 "CMakeFiles/a17.dir/zero-judge/C456.cpp.obj" \
-"CMakeFiles/a17.dir/zero-judge/C299.cpp.obj"
+"CMakeFiles/a17.dir/zero-judge/C299.cpp.obj" \
+"CMakeFiles/a17.dir/ITC/107-5.cpp.obj" \
+"CMakeFiles/a17.dir/ITC/107-3.cpp.obj" \
+"CMakeFiles/a17.dir/ITC/105-3.cpp.obj" \
+"CMakeFiles/a17.dir/ITC/106-2.cpp.obj"
 
 # External object files for target a17
 a17_EXTERNAL_OBJECTS =
@@ -154,11 +214,15 @@ a17.exe: CMakeFiles/a17.dir/zero-judge/C455.cpp.obj
 a17.exe: CMakeFiles/a17.dir/zero-judge/C458.cpp.obj
 a17.exe: CMakeFiles/a17.dir/zero-judge/C456.cpp.obj
 a17.exe: CMakeFiles/a17.dir/zero-judge/C299.cpp.obj
+a17.exe: CMakeFiles/a17.dir/ITC/107-5.cpp.obj
+a17.exe: CMakeFiles/a17.dir/ITC/107-3.cpp.obj
+a17.exe: CMakeFiles/a17.dir/ITC/105-3.cpp.obj
+a17.exe: CMakeFiles/a17.dir/ITC/106-2.cpp.obj
 a17.exe: CMakeFiles/a17.dir/build.make
 a17.exe: CMakeFiles/a17.dir/linklibs.rsp
 a17.exe: CMakeFiles/a17.dir/objects1.rsp
 a17.exe: CMakeFiles/a17.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable a17.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ptivs\CLionProjects\leetcode-or-zero_judge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable a17.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\a17.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
