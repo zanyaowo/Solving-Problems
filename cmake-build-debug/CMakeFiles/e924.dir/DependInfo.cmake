@@ -11,8 +11,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/zanya/CLionProjects/leetcode-or-zero_judge/zero-judge/e924.cpp" "CMakeFiles/e924.dir/zero-judge/e924.cpp.obj" "gcc" "CMakeFiles/e924.dir/zero-judge/e924.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
